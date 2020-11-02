@@ -29,7 +29,7 @@ nav{
   padding: 1em;
 }
 li {
-  font-size: 1.3vw;
+  font-size: 1.3em;
   border-style: solid;
   border-color: #025e73;
   border-width: 2px;
@@ -47,11 +47,14 @@ li:hover{
 }
 main {
     margin-top: 5em;
-    min-height: 50vh;
+   background-color: rgb(252, 250, 236);
     text-align: justify;
+    border:2px solid #025373;
+    padding: 2em;
 }
+
 .card-section {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
 }
 
 footer {
