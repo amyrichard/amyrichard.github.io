@@ -50,6 +50,9 @@ main {
     min-height: 50vh;
     text-align: justify;
 }
+.card-section {
+  background-color: white;
+}
 
 footer {
   min-height: 15vh;
