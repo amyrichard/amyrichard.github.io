@@ -2,54 +2,49 @@
 
 #homePage{
   height: 100vw;
-  background-image: linear-gradient(275deg,#025373,#69b7bf);
-  
+  background-color: rgb(252, 250, 236);
 }
 #myWorkPage {
   height: 100vw;
-  background-image: linear-gradient(285deg,#025373,#69b7bf);
+  background-color: rgb(252, 250, 236);
 }
 #contactPage {
   height: 100vw;
-  background-color: #69b7bf;
+  background-color: white;
 background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 }
 body > * {
   padding: 1em;
-  margin: .75em;
-}
-header{
-  min-height: 10vh;
-  color: black;
-}
-
-nav{
-  padding: 1em;
-}
-li {
-  font-size: 1.3em;
-  border-style: solid;
-  border-color: #025e73;
-  border-width: 2px;
-  border-radius: 10px;
-  margin-right: 18vw;
   
 }
+header{
+  background-color:rgb(252, 250, 236);
+}
+
+li {
+  font-size: 1.5em;
+}
 .horchata {
-  color:#eede8e;
+  color:#025373;
   font-weight: bold;
 }
-li:hover{
-  background-image: linear-gradient(#69b7bf,#025373);
-  border-color: #025373;
+.blue{
+  background-image: linear-gradient(125deg,#016e99,#025373);
+  height: 4rem;
+}
+.horchata:hover{
+  border-bottom: 3px solid thistle;
+  border-radius: 3px;
+ 
 }
 main {
-    margin-top: 5em;
+    margin-top: 3rem;
    background-color: rgb(252, 250, 236);
-    text-align: justify;
-    border:2px solid #025373;
+    border:4px solid thistle;
+    border-radius: 10px;
     padding: 2em;
 }
 
@@ -59,9 +54,10 @@ main {
 
 footer {
   min-height: 15vh;
-  border:2px solid #025e73;
+  border:5px solid #025e73;
   border-radius: 10px;
   color: black;
   padding: 1em;
-  margin-top: 5em;  
+  margin-top: 3rem;  
+  background-color:rgb(252, 250, 236);
 }
