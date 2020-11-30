@@ -10,10 +10,9 @@
 }
 #contactPage {
   height: 100vw;
-  background-color: white;
-background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+background-image:url("/assets/img/tealMountain.jpg");
+background-color: rgb(252, 250, 236);
 
 }
 body > * {
@@ -26,6 +25,11 @@ header{
 
 li {
   font-size: 1.5em;
+}
+.hello:hover{
+  color:#025373;
+  font-size: larger;
+  font-family:cursive;
 }
 .horchata {
   color:#025373;
@@ -60,4 +64,8 @@ footer {
   padding: 1em;
   margin-top: 3rem;  
   background-color:rgb(252, 250, 236);
+}
+.mountains{
+  background-image: url("/assets/img/tealMountain.jpg");
+  
 }
