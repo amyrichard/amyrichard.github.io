@@ -2,7 +2,8 @@
 
 #homePage{
   height: 100vw;
-  background-color: rgb(252, 250, 236);
+  /* background-color: rgb(252, 250, 236); */
+  background-image: url("/assets/img/tealMountain.jpg");
 }
 #myWorkPage {
   height: 100vw;
@@ -15,10 +16,7 @@ background-image:url("/assets/img/tealMountain.jpg");
 background-color: rgb(252, 250, 236);
 
 }
-body > * {
-  padding: 1em;
-  
-}
+
 header{
   background-color:rgb(252, 250, 236);
 }
@@ -31,7 +29,7 @@ li {
   font-size: larger;
   font-family:cursive;
 }
-.horchata {
+.navWords {
   color:#025373;
   font-weight: bold;
 }
@@ -46,14 +44,18 @@ li {
 }
 main {
     margin-top: 3rem;
-   background-color: rgb(252, 250, 236);
+    margin-bottom: 3rem;
+   /* background-color: rgb(252, 250, 236); */
     border:4px solid thistle;
     border-radius: 10px;
     padding: 2em;
 }
 
 .card-section {
-  background-color: rgb(245, 245, 245);
+  background-color: white;
+}
+.card{
+  height:25rem;
 }
 
 footer {
