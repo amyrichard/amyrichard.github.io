@@ -3,7 +3,7 @@
 #homePage{
   height: 100vw;
   /* background-color: rgb(252, 250, 236); */
-  background-image: url("/assets/img/tealMountain.jpg");
+  background-image: url("/assets/img/tealMountain.jpg") no-repeat fixed center;
 }
 #myWorkPage {
   height: 100vw;
