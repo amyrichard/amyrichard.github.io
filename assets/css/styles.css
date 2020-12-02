@@ -47,16 +47,16 @@ li {
   border-radius: 3px;
  
 }
-.intro{
+/* .intro{
   padding: 5em;
-}
+} */
 main {
     margin-top: 3rem;
     margin-bottom: 3rem;
    /* background-color: rgb(252, 250, 236); */
     border:4px solid rgb(252, 250, 236);
     border-radius: 10px;
-    padding: 2em;
+    padding: 5em;
 }
 
 .card-section {
