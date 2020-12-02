@@ -47,6 +47,9 @@ li {
   border-radius: 3px;
  
 }
+.intro{
+  padding: 5em;
+}
 main {
     margin-top: 3rem;
     margin-bottom: 3rem;
