@@ -58,7 +58,9 @@ main {
     border-radius: 10px;
     padding: 5em;
 }
-
+label{
+  font-size: 1.2em;
+}
 .card-section {
   background-color: white;
 }
