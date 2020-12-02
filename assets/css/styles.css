@@ -1,9 +1,9 @@
 
 
 #homePage{
-  height: 100vw;
+  /* height: 100vw; */
   /* background-color: rgb(252, 250, 236); */
-  background-image: url("/assets/img/tealMountain.jpg") no-repeat fixed center;
+  /* background-image: url("/assets/img/tealMountain.jpg") no-repeat fixed center; */
 }
 #myWorkPage {
   height: 100vw;
@@ -12,9 +12,13 @@
 #contactPage {
   height: 100vw;
   
-background-image:url("/assets/img/tealMountain.jpg");
+background-image:url("/assets/img/tealMountain.jpg"); 
 background-color: rgb(252, 250, 236);
 
+}
+body{
+  background-image: url(/assets/img/tealMountain.jpg);
+  background-repeat: no-repeat;
 }
 
 header{
@@ -37,7 +41,7 @@ li {
   background-image: linear-gradient(125deg,#016e99,#025373);
   height: 4rem;
 }
-.horchata:hover{
+.navWords:hover{
   border-bottom: 3px solid thistle;
   border-radius: 3px;
  
@@ -67,7 +71,7 @@ footer {
   margin-top: 3rem;  
   background-color:rgb(252, 250, 236);
 }
-.mountains{
+/* .mountains{
   background-image: url("/assets/img/tealMountain.jpg");
   
-}
+} */
