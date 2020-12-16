@@ -13,11 +13,12 @@
 background-color: rgb(252, 250, 236);
 
 }
-/* body{
-  background-image: url(/assets/img/tealMountain.jpg);
+body{
+  background-color: rgb(252, 250, 236);
+  /* background-image: url(/assets/img/tealMountain.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-} */
+  background-position: center; */
+}
 
 header{
   background-color:rgb(252, 250, 236);
