@@ -74,6 +74,11 @@ label{
   height:25rem;
   border: 2px solid grey;
 }
+.button{
+  background-color: #025e73;
+  color: #fafcfc;
+  text-align: center;
+}
 
 footer {
   min-height: 15vh;
